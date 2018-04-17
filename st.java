@@ -23,7 +23,7 @@ public class st {
         System.out.println("性別" +sexuality);
         System.out.println("系別" +department);
     }
-    public void showScore(){
+    public void showscore(){
         System.out.println("國文"+chinese);
         System.out.println("英文"+english);
         System.out.println("數學"+math);
