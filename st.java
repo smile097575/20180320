@@ -31,24 +31,19 @@ public class st {
     public String getName() {
         return name;
     }
-
     public float getChinese() {
         return chinese;
     }
-
     public float getEnglish() {
         return english;
     }
-
     public float getMath() {
         return math;
     }
-
     public float getSum() {
         sum = chinese + english +math;
         return sum;
     }
-
     public float getAverage() {
         average=(chinese + english + math)/3;
         return average;
