@@ -11,22 +11,22 @@ public class st {
         math = math1;
     }
     public void showinfo() {
-        System.out.println("姓名：" + name);
-        System.out.println("性別：" + sexuality);
-        System.out.println("系別：" + department);
-        System.out.println("國文："+chinese);
-        System.out.println("英文："+english);
-        System.out.println("數學："+math);
+        System.out.println("姓名" +name);
+        System.out.println("性別" +sexuality);
+        System.out.println("系別" +department);
+        System.out.println("國文"+chinese);
+        System.out.println("英文"+english);
+        System.out.println("數學"+math);
     }
-    public void showStr(){
-        System.out.println("姓名：" + name);
-        System.out.println("性別：" + sexuality);
-        System.out.println("系別：" + department);
+    public void showst(){
+        System.out.println("姓名" +name);
+        System.out.println("性別" +sexuality);
+        System.out.println("系別" +department);
     }
     public void showScore(){
-        System.out.println("國文："+chinese);
-        System.out.println("英文："+english);
-        System.out.println("數學："+math);
+        System.out.println("國文"+chinese);
+        System.out.println("英文"+english);
+        System.out.println("數學"+math);
     }
     public String getName() {
         return name;
@@ -45,7 +45,7 @@ public class st {
     }
 
     public float getSum() {
-        sum = chinese + english + math;
+        sum = chinese + english +math;
         return sum;
     }
 
