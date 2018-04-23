@@ -29,13 +29,13 @@ public class CMEmain {
                 case 2:
                     for (int i = 0; i < 5; i++) {
                         s[i].showinfo();
-                        System.out.println("=============================");
+                        System.out.println("-----------");
                     }
                     break;
                 case 3:
-                    System.out.println("國文");
-                    System.out.println("英文");
-                    System.out.println("數學");
+                    System.out.println("1國文");
+                    System.out.println("2英文");
+                    System.out.println("3數學");
                     System.out.print("請輸入要查詢哪一個項目");
                     num = scn.nextInt();
                     switch (num) {
